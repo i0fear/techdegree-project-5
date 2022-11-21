@@ -1,0 +1,49 @@
+*{
+box-sizing: border-box;
+}
+
+
+body{
+max-width: 1024px;
+margin: 2em auto;
+text-align: center;
+
+}
+.searchBar{
+    margin:30px;
+    
+    
+}
+.search{
+    padding:12px 8px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+
+
+.backboard{
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 6rem;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    align-content: center;
+
+}
+
+.gallery{
+    
+    display:grid;
+    grid-template-columns:repeat(auto-fit, 200px);
+    gap:20px;
+    justify-content: center;
+    margin-top: 2rem;
+    align-content: center;
+    
+   
+   
+    
+}
